@@ -97,7 +97,7 @@ proxies:
     headers:
       host: fr.freeh1.xyz
   client-fingerprint: chrome
-- name: AFOSNE_None_vmess_41
+- name: AFOSNE_United States_vmess_41
   type: vmess
   server: cm.dongtaiwang3.com
   port: 443
@@ -223,10 +223,10 @@ proxies:
   skip-cert-verify: true
   alpn:
   - h3
-- name: AFOSNE_United States_hy2_0
+- name: AFOSNE_France_hy2_0
   type: hysteria2
-  server: 64.110.25.11
-  port: 33337
+  server: 62.210.101.0
+  port: 52465
   password: dongtaiwang.com
   fast-open: true
   sni: www.bing.com
@@ -266,7 +266,7 @@ proxy-groups:
   - AFOSNE_United States_ss_11
   - AFOSNE_United States_vless_21
   - AFOSNE_France_vless_31
-  - AFOSNE_None_vmess_41
+  - AFOSNE_United States_vmess_41
   - AFOSNE_Canada_vmess_51
   - AFOSNE_Taiwan_hysteria_61
   - AFOSNE_France_hysteria2_71
@@ -276,7 +276,7 @@ proxy-groups:
   - AFOSNE_United States_hy_1
   - AFOSNE_United States_hy_2
   - AFOSNE_United States_hy_3
-  - AFOSNE_United States_hy2_0
+  - AFOSNE_France_hy2_0
   - AFOSNE_United States_hy2_1
   - AFOSNE_United States_hy2_2
   - AFOSNE_United States_hy2_3
@@ -291,7 +291,7 @@ proxy-groups:
   - AFOSNE_United States_ss_11
   - AFOSNE_United States_vless_21
   - AFOSNE_France_vless_31
-  - AFOSNE_None_vmess_41
+  - AFOSNE_United States_vmess_41
   - AFOSNE_Canada_vmess_51
   - AFOSNE_Taiwan_hysteria_61
   - AFOSNE_France_hysteria2_71
@@ -301,7 +301,7 @@ proxy-groups:
   - AFOSNE_United States_hy_1
   - AFOSNE_United States_hy_2
   - AFOSNE_United States_hy_3
-  - AFOSNE_United States_hy2_0
+  - AFOSNE_France_hy2_0
   - AFOSNE_United States_hy2_1
   - AFOSNE_United States_hy2_2
   - AFOSNE_United States_hy2_3

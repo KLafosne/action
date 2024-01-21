@@ -111,7 +111,7 @@
         "🇺🇸 AFOSNE_United States_ss_11_shadowtls",
         "🇺🇸 AFOSNE_United States_vless_21",
         "🇫🇷 AFOSNE_France_vless_31",
-        "🇫🇴 AFOSNE_None_vmess_41",
+        "🇺🇸 AFOSNE_United States_vmess_41",
         "🇨🇦 AFOSNE_Canada_vmess_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
         "🇫🇷 AFOSNE_France_hysteria2_71",
@@ -121,7 +121,7 @@
         "🇺🇸 AFOSNE_United States_hy_1",
         "🇺🇸 AFOSNE_United States_hy_2",
         "🇺🇸 AFOSNE_United States_hy_3",
-        "🇺🇸 AFOSNE_United States_hy2_0",
+        "🇫🇷 AFOSNE_France_hy2_0",
         "🇺🇸 AFOSNE_United States_hy2_1",
         "🇺🇸 AFOSNE_United States_hy2_2",
         "🇺🇸 AFOSNE_United States_hy2_3"
@@ -375,11 +375,11 @@
         "🇺🇸 AFOSNE_United States_ss_11",
         "🇺🇸 AFOSNE_United States_ss_11_shadowtls",
         "🇺🇸 AFOSNE_United States_vless_21",
+        "🇺🇸 AFOSNE_United States_vmess_41",
         "🇺🇸 AFOSNE_United States_hysteria2_81",
         "🇺🇸 AFOSNE_United States_hy_1",
         "🇺🇸 AFOSNE_United States_hy_2",
         "🇺🇸 AFOSNE_United States_hy_3",
-        "🇺🇸 AFOSNE_United States_hy2_0",
         "🇺🇸 AFOSNE_United States_hy2_1",
         "🇺🇸 AFOSNE_United States_hy2_2",
         "🇺🇸 AFOSNE_United States_hy2_3",
@@ -393,10 +393,10 @@
         "🇨🇦 AFOSNE_Canada_vless_01",
         "🇫🇷 AFOSNE_France_vless_02",
         "🇫🇷 AFOSNE_France_vless_31",
-        "🇫🇴 AFOSNE_None_vmess_41",
         "🇨🇦 AFOSNE_Canada_vmess_51",
         "🇫🇷 AFOSNE_France_hysteria2_71",
         "🇫🇷 AFOSNE_France_hy_0",
+        "🇫🇷 AFOSNE_France_hy2_0",
         "proxy"
       ]
     },
@@ -410,7 +410,7 @@
         "🇺🇸 AFOSNE_United States_ss_11_shadowtls",
         "🇺🇸 AFOSNE_United States_vless_21",
         "🇫🇷 AFOSNE_France_vless_31",
-        "🇫🇴 AFOSNE_None_vmess_41",
+        "🇺🇸 AFOSNE_United States_vmess_41",
         "🇨🇦 AFOSNE_Canada_vmess_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
         "🇫🇷 AFOSNE_France_hysteria2_71",
@@ -420,7 +420,7 @@
         "🇺🇸 AFOSNE_United States_hy_1",
         "🇺🇸 AFOSNE_United States_hy_2",
         "🇺🇸 AFOSNE_United States_hy_3",
-        "🇺🇸 AFOSNE_United States_hy2_0",
+        "🇫🇷 AFOSNE_France_hy2_0",
         "🇺🇸 AFOSNE_United States_hy2_1",
         "🇺🇸 AFOSNE_United States_hy2_2",
         "🇺🇸 AFOSNE_United States_hy2_3"
@@ -567,7 +567,7 @@
       }
     },
     {
-      "tag": "🇫🇴 AFOSNE_None_vmess_41",
+      "tag": "🇺🇸 AFOSNE_United States_vmess_41",
       "type": "vmess",
       "server": "cm.dongtaiwang3.com",
       "server_port": 443,
@@ -744,10 +744,10 @@
       }
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_hy2_0",
+      "tag": "🇫🇷 AFOSNE_France_hy2_0",
       "type": "hysteria2",
-      "server": "64.110.25.11",
-      "server_port": 33337,
+      "server": "62.210.101.0",
+      "server_port": 52465,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,

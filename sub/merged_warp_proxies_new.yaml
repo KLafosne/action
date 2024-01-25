@@ -133,7 +133,7 @@ proxies:
     headers:
       host: fr.freeh1.xyz
   client-fingerprint: chrome
-- name: AFOSNE_None_vmess_41
+- name: AFOSNE_United States_vmess_41
   type: vmess
   server: cm.dongtaiwang3.com
   port: 443
@@ -318,7 +318,7 @@ proxy-groups:
   - AFOSNE_United States_ss_12
   - AFOSNE_United States_vless_21
   - AFOSNE_United States_vless_31
-  - AFOSNE_None_vmess_41
+  - AFOSNE_United States_vmess_41
   - AFOSNE_Canada_vmess_51
   - AFOSNE_Taiwan_hysteria_61
   - AFOSNE_France_hysteria2_71
@@ -341,7 +341,7 @@ proxy-groups:
   - AFOSNE_United States_ss_12
   - AFOSNE_United States_vless_21
   - AFOSNE_United States_vless_31
-  - AFOSNE_None_vmess_41
+  - AFOSNE_United States_vmess_41
   - AFOSNE_Canada_vmess_51
   - AFOSNE_Taiwan_hysteria_61
   - AFOSNE_France_hysteria2_71
@@ -364,7 +364,7 @@ proxy-groups:
   - AFOSNE_United States_ss_12
   - AFOSNE_United States_vless_21
   - AFOSNE_United States_vless_31
-  - AFOSNE_None_vmess_41
+  - AFOSNE_United States_vmess_41
   - AFOSNE_Canada_vmess_51
   - AFOSNE_Taiwan_hysteria_61
   - AFOSNE_France_hysteria2_71

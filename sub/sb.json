@@ -106,13 +106,11 @@
         "auto",
         "direct",
         "🇨🇦 AFOSNE_Canada_vless_01",
-        "🇺🇸 AFOSNE_United States_vless_02",
-        "🇫🇷 AFOSNE_France_ss_11",
-        "🇫🇷 AFOSNE_France_ss_11_shadowtls",
-        "🇺🇸 AFOSNE_United States_ss_12",
-        "🇺🇸 AFOSNE_United States_ss_12_shadowtls",
-        "🇺🇸 AFOSNE_United States_vless_21",
-        "🇺🇸 AFOSNE_United States_vless_31",
+        "🇨🇦 AFOSNE_Canada_vless_02",
+        "🇺🇸 AFOSNE_United States_vless_11",
+        "🇺🇸 AFOSNE_United States_vless_12",
+        "🇫🇴 AFOSNE_None_vless_21",
+        "🇨🇦 AFOSNE_Canada_vless_31",
         "🇫🇴 AFOSNE_None_vmess_41",
         "🇨🇦 AFOSNE_Canada_vmess_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
@@ -374,11 +372,8 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 AFOSNE_United States_vless_02",
-        "🇺🇸 AFOSNE_United States_ss_12",
-        "🇺🇸 AFOSNE_United States_ss_12_shadowtls",
-        "🇺🇸 AFOSNE_United States_vless_21",
-        "🇺🇸 AFOSNE_United States_vless_31",
+        "🇺🇸 AFOSNE_United States_vless_11",
+        "🇺🇸 AFOSNE_United States_vless_12",
         "🇺🇸 AFOSNE_United States_hysteria2_81",
         "🇺🇸 AFOSNE_United States_hy_1",
         "🇺🇸 AFOSNE_United States_hy_2",
@@ -394,8 +389,9 @@
       "type": "selector",
       "outbounds": [
         "🇨🇦 AFOSNE_Canada_vless_01",
-        "🇫🇷 AFOSNE_France_ss_11",
-        "🇫🇷 AFOSNE_France_ss_11_shadowtls",
+        "🇨🇦 AFOSNE_Canada_vless_02",
+        "🇫🇴 AFOSNE_None_vless_21",
+        "🇨🇦 AFOSNE_Canada_vless_31",
         "🇫🇴 AFOSNE_None_vmess_41",
         "🇨🇦 AFOSNE_Canada_vmess_51",
         "🇫🇷 AFOSNE_France_hysteria2_71",
@@ -409,13 +405,11 @@
       "type": "urltest",
       "outbounds": [
         "🇨🇦 AFOSNE_Canada_vless_01",
-        "🇺🇸 AFOSNE_United States_vless_02",
-        "🇫🇷 AFOSNE_France_ss_11",
-        "🇫🇷 AFOSNE_France_ss_11_shadowtls",
-        "🇺🇸 AFOSNE_United States_ss_12",
-        "🇺🇸 AFOSNE_United States_ss_12_shadowtls",
-        "🇺🇸 AFOSNE_United States_vless_21",
-        "🇺🇸 AFOSNE_United States_vless_31",
+        "🇨🇦 AFOSNE_Canada_vless_02",
+        "🇺🇸 AFOSNE_United States_vless_11",
+        "🇺🇸 AFOSNE_United States_vless_12",
+        "🇫🇴 AFOSNE_None_vless_21",
+        "🇨🇦 AFOSNE_Canada_vless_31",
         "🇫🇴 AFOSNE_None_vmess_41",
         "🇨🇦 AFOSNE_Canada_vmess_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
@@ -450,7 +444,7 @@
     {
       "tag": "🇨🇦 AFOSNE_Canada_vless_01",
       "type": "vless",
-      "server": "dongtaiwang3.com",
+      "server": "23.227.38.51",
       "server_port": 443,
       "uuid": "a9202ced-3185-489c-8b28-74e9a00d894d",
       "packet_encoding": "xudp",
@@ -472,9 +466,9 @@
       }
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_vless_02",
+      "tag": "🇨🇦 AFOSNE_Canada_vless_02",
       "type": "vless",
-      "server": "cu.dongtaiwang3.com",
+      "server": "dongtaiwang2.com",
       "server_port": 443,
       "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
       "packet_encoding": "xudp",
@@ -496,69 +490,57 @@
       }
     },
     {
-      "tag": "🇫🇷 AFOSNE_France_ss_11",
-      "type": "shadowsocks",
-      "method": "2022-blake3-aes-128-gcm",
-      "password": "guXsVF5bET8TgJV0HYUYew==",
-      "multiplex": {
-        "enabled": true,
-        "protocol": "h2mux",
-        "max_connections": 8,
-        "min_streams": 16,
-        "padding": true
-      },
-      "detour": "AFOSNE_France_ss_11_shadowtls"
-    },
-    {
-      "tag": "🇫🇷 AFOSNE_France_ss_11_shadowtls",
-      "type": "shadowtls",
-      "server": "62.210.103.0",
-      "server_port": 12299,
-      "version": 3,
-      "password": "1fba3104-360c-483f-9fc2-c90c85b55389",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 AFOSNE_United States_ss_12",
-      "type": "shadowsocks",
-      "method": "2022-blake3-aes-128-gcm",
-      "password": "lolvK9uAhEDYTMuqCRblBg==",
-      "multiplex": {
-        "enabled": true,
-        "protocol": "h2mux",
-        "max_connections": 8,
-        "min_streams": 16,
-        "padding": true
-      },
-      "detour": "AFOSNE_United States_ss_12_shadowtls"
-    },
-    {
-      "tag": "🇺🇸 AFOSNE_United States_ss_12_shadowtls",
-      "type": "shadowtls",
-      "server": "167.160.90.252",
-      "server_port": 8883,
-      "version": 3,
-      "password": "d3971b31-e16b-4af2-b430-afb896380543",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 AFOSNE_United States_vless_21",
+      "tag": "🇺🇸 AFOSNE_United States_vless_11",
       "type": "vless",
-      "server": "cu.dongtaiwang3.com",
+      "server": "172.67.70.101",
+      "server_port": 443,
+      "uuid": "a9202ced-3185-489c-8b28-74e9a00d894d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "dongtaiwang.dtku47.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/eobjws",
+        "headers": {
+          "Host": "dongtaiwang.dtku47.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 AFOSNE_United States_vless_12",
+      "type": "vless",
+      "server": "172.67.70.103",
+      "server_port": 443,
+      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "fr.freeh1.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/kfhaws",
+        "headers": {
+          "Host": "fr.freeh1.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇴 AFOSNE_None_vless_21",
+      "type": "vless",
+      "server": "198.41.220.101",
       "server_port": 443,
       "uuid": "ffb15cd2-0521-49de-b8aa-fb15d58c8075",
       "packet_encoding": "xudp",
@@ -580,9 +562,9 @@
       }
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_vless_31",
+      "tag": "🇨🇦 AFOSNE_Canada_vless_31",
       "type": "vless",
-      "server": "cu.dongtaiwang3.com",
+      "server": "23.227.39.53",
       "server_port": 443,
       "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
       "packet_encoding": "xudp",
@@ -606,7 +588,7 @@
     {
       "tag": "🇫🇴 AFOSNE_None_vmess_41",
       "type": "vmess",
-      "server": "cm.dongtaiwang3.com",
+      "server": "198.41.221.100",
       "server_port": 443,
       "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
       "security": "auto",

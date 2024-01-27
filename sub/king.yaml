@@ -152,7 +152,7 @@ proxies:
   grpc-opts:
     grpc-service-name: ihaxv17
     grpc-mode: none
-- name: AFOSNE_United States_vmess_010
+- name: AFOSNE_None_vmess_010
   type: vmess
   server: v18.k8s.now.cc
   port: 443
@@ -181,7 +181,7 @@ proxy-groups:
   - AFOSNE_United States_vmess_07
   - AFOSNE_United States_vmess_08
   - AFOSNE_None_vmess_09
-  - AFOSNE_United States_vmess_010
+  - AFOSNE_None_vmess_010
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -197,7 +197,7 @@ proxy-groups:
   - AFOSNE_United States_vmess_07
   - AFOSNE_United States_vmess_08
   - AFOSNE_None_vmess_09
-  - AFOSNE_United States_vmess_010
+  - AFOSNE_None_vmess_010
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT

@@ -607,7 +607,7 @@
     {
       "tag": "🇨🇦 AFOSNE_Canada_vmess_51",
       "type": "vmess",
-      "server": "dongtaiwang2.com",
+      "server": "23.227.38.121",
       "server_port": 443,
       "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
       "security": "auto",

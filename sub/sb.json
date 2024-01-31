@@ -105,14 +105,32 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇦 AFOSNE_Canada_vless_01",
-        "🇨🇦 AFOSNE_Canada_vless_02",
-        "🇺🇸 AFOSNE_United States_vless_11",
-        "🇺🇸 AFOSNE_United States_vless_12",
-        "🇫🇴 AFOSNE_None_vless_21",
-        "🇨🇦 AFOSNE_Canada_vless_31",
-        "🇫🇴 AFOSNE_None_vmess_41",
-        "🇨🇦 AFOSNE_Canada_vmess_51",
+        "🇺🇸 AFOSNE_United States_ss_01",
+        "🇫🇴 AFOSNE_China_ss_02",
+        "🇫🇴 AFOSNE_China_ss_03",
+        "🇨🇦 AFOSNE_Canada_vmess_04",
+        "🇨🇿 AFOSNE_Czechia_vmess_05",
+        "🇧🇪 AFOSNE_Belgium_vmess_06",
+        "🇫🇴 AFOSNE_None_vmess_07",
+        "🇵🇹 AFOSNE_Portugal_vmess_08",
+        "🇬🇷 AFOSNE_Greece_vmess_09",
+        "🇫🇴 AFOSNE_None_vmess_010",
+        "🇻🇳 AFOSNE_Vietnam_vmess_011",
+        "🇸🇰 AFOSNE_Slovakia_vmess_012",
+        "🇹🇼 AFOSNE_Taiwan_vmess_013",
+        "🇵🇹 AFOSNE_Portugal_vmess_014",
+        "🇻🇳 AFOSNE_Vietnam_vmess_015",
+        "🇫🇴 AFOSNE_None_vmess_016",
+        "🇹🇼 AFOSNE_Taiwan_vmess_017",
+        "🇹🇼 AFOSNE_Taiwan_vmess_018",
+        "🇫🇴 AFOSNE_China_vmess_019",
+        "🇨🇿 AFOSNE_Czechia_vmess_020",
+        "🇫🇴 AFOSNE_None_vmess_021",
+        "🇺🇸 AFOSNE_United States_vmess_11",
+        "🇺🇸 AFOSNE_United States_vmess_21",
+        "🇺🇸 AFOSNE_United States_vmess_31",
+        "🇺🇸 AFOSNE_United States_vmess_41",
+        "🇺🇸 AFOSNE_United States_vmess_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
         "🇫🇷 AFOSNE_France_hysteria2_71",
         "🇺🇸 AFOSNE_United States_hysteria2_81",
@@ -349,6 +367,9 @@
       "tag": "TaiWan",
       "type": "selector",
       "outbounds": [
+        "🇹🇼 AFOSNE_Taiwan_vmess_013",
+        "🇹🇼 AFOSNE_Taiwan_vmess_017",
+        "🇹🇼 AFOSNE_Taiwan_vmess_018",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
         "🇹🇼 AFOSNE_Taiwan_hysteria_91",
         "proxy"
@@ -372,8 +393,12 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 AFOSNE_United States_vless_11",
-        "🇺🇸 AFOSNE_United States_vless_12",
+        "🇺🇸 AFOSNE_United States_ss_01",
+        "🇺🇸 AFOSNE_United States_vmess_11",
+        "🇺🇸 AFOSNE_United States_vmess_21",
+        "🇺🇸 AFOSNE_United States_vmess_31",
+        "🇺🇸 AFOSNE_United States_vmess_41",
+        "🇺🇸 AFOSNE_United States_vmess_51",
         "🇺🇸 AFOSNE_United States_hysteria2_81",
         "🇺🇸 AFOSNE_United States_hy_1",
         "🇺🇸 AFOSNE_United States_hy_2",
@@ -387,12 +412,23 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇨🇦 AFOSNE_Canada_vless_01",
-        "🇨🇦 AFOSNE_Canada_vless_02",
-        "🇫🇴 AFOSNE_None_vless_21",
-        "🇨🇦 AFOSNE_Canada_vless_31",
-        "🇫🇴 AFOSNE_None_vmess_41",
-        "🇨🇦 AFOSNE_Canada_vmess_51",
+        "🇫🇴 AFOSNE_China_ss_02",
+        "🇫🇴 AFOSNE_China_ss_03",
+        "🇨🇦 AFOSNE_Canada_vmess_04",
+        "🇨🇿 AFOSNE_Czechia_vmess_05",
+        "🇧🇪 AFOSNE_Belgium_vmess_06",
+        "🇫🇴 AFOSNE_None_vmess_07",
+        "🇵🇹 AFOSNE_Portugal_vmess_08",
+        "🇬🇷 AFOSNE_Greece_vmess_09",
+        "🇫🇴 AFOSNE_None_vmess_010",
+        "🇻🇳 AFOSNE_Vietnam_vmess_011",
+        "🇸🇰 AFOSNE_Slovakia_vmess_012",
+        "🇵🇹 AFOSNE_Portugal_vmess_014",
+        "🇻🇳 AFOSNE_Vietnam_vmess_015",
+        "🇫🇴 AFOSNE_None_vmess_016",
+        "🇫🇴 AFOSNE_China_vmess_019",
+        "🇨🇿 AFOSNE_Czechia_vmess_020",
+        "🇫🇴 AFOSNE_None_vmess_021",
         "🇫🇷 AFOSNE_France_hysteria2_71",
         "🇫🇷 AFOSNE_France_hy_0",
         "🇫🇷 AFOSNE_France_hy2_0",
@@ -404,14 +440,32 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇨🇦 AFOSNE_Canada_vless_01",
-        "🇨🇦 AFOSNE_Canada_vless_02",
-        "🇺🇸 AFOSNE_United States_vless_11",
-        "🇺🇸 AFOSNE_United States_vless_12",
-        "🇫🇴 AFOSNE_None_vless_21",
-        "🇨🇦 AFOSNE_Canada_vless_31",
-        "🇫🇴 AFOSNE_None_vmess_41",
-        "🇨🇦 AFOSNE_Canada_vmess_51",
+        "🇺🇸 AFOSNE_United States_ss_01",
+        "🇫🇴 AFOSNE_China_ss_02",
+        "🇫🇴 AFOSNE_China_ss_03",
+        "🇨🇦 AFOSNE_Canada_vmess_04",
+        "🇨🇿 AFOSNE_Czechia_vmess_05",
+        "🇧🇪 AFOSNE_Belgium_vmess_06",
+        "🇫🇴 AFOSNE_None_vmess_07",
+        "🇵🇹 AFOSNE_Portugal_vmess_08",
+        "🇬🇷 AFOSNE_Greece_vmess_09",
+        "🇫🇴 AFOSNE_None_vmess_010",
+        "🇻🇳 AFOSNE_Vietnam_vmess_011",
+        "🇸🇰 AFOSNE_Slovakia_vmess_012",
+        "🇹🇼 AFOSNE_Taiwan_vmess_013",
+        "🇵🇹 AFOSNE_Portugal_vmess_014",
+        "🇻🇳 AFOSNE_Vietnam_vmess_015",
+        "🇫🇴 AFOSNE_None_vmess_016",
+        "🇹🇼 AFOSNE_Taiwan_vmess_017",
+        "🇹🇼 AFOSNE_Taiwan_vmess_018",
+        "🇫🇴 AFOSNE_China_vmess_019",
+        "🇨🇿 AFOSNE_Czechia_vmess_020",
+        "🇫🇴 AFOSNE_None_vmess_021",
+        "🇺🇸 AFOSNE_United States_vmess_11",
+        "🇺🇸 AFOSNE_United States_vmess_21",
+        "🇺🇸 AFOSNE_United States_vmess_31",
+        "🇺🇸 AFOSNE_United States_vmess_41",
+        "🇺🇸 AFOSNE_United States_vmess_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
         "🇫🇷 AFOSNE_France_hysteria2_71",
         "🇺🇸 AFOSNE_United States_hysteria2_81",
@@ -442,186 +496,318 @@
       "tag": "block"
     },
     {
-      "tag": "🇨🇦 AFOSNE_Canada_vless_01",
-      "type": "vless",
-      "server": "23.227.38.51",
-      "server_port": 443,
-      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "fr.freeh1.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/kfhaws",
-        "headers": {
-          "Host": "fr.freeh1.xyz"
-        }
-      }
+      "tag": "🇺🇸 AFOSNE_United States_ss_01",
+      "type": "shadowsocks",
+      "server": "uydyfkghjrtcsdx.youcansee.cyou",
+      "server_port": 20167,
+      "method": "chacha20-ietf-poly1305",
+      "password": "81416f3c-5b00-4056-8e5f-d7ffdd884bf4"
     },
     {
-      "tag": "🇨🇦 AFOSNE_Canada_vless_02",
-      "type": "vless",
-      "server": "23.227.39.51",
-      "server_port": 443,
-      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "fr.freeh1.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/kfhaws",
-        "headers": {
-          "Host": "fr.freeh1.xyz"
-        }
-      }
+      "tag": "🇫🇴 AFOSNE_China_ss_02",
+      "type": "shadowsocks",
+      "server": "service.ouluyun9803.com",
+      "server_port": 26601,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f665c5d0-77c0-4196-bc8d-f0450e9c665b"
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_vless_11",
-      "type": "vless",
-      "server": "172.67.70.101",
-      "server_port": 443,
-      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "fr.freeh1.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/kfhaws",
-        "headers": {
-          "Host": "fr.freeh1.xyz"
-        }
-      }
+      "tag": "🇫🇴 AFOSNE_China_ss_03",
+      "type": "shadowsocks",
+      "server": "service.ouluyun9803.com",
+      "server_port": 26668,
+      "method": "chacha20-ietf-poly1305",
+      "password": "f665c5d0-77c0-4196-bc8d-f0450e9c665b"
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_vless_12",
-      "type": "vless",
-      "server": "172.67.70.103",
-      "server_port": 443,
-      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "fr.freeh1.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/kfhaws",
-        "headers": {
-          "Host": "fr.freeh1.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇴 AFOSNE_None_vless_21",
-      "type": "vless",
-      "server": "198.41.220.101",
-      "server_port": 443,
-      "uuid": "ffb15cd2-0521-49de-b8aa-fb15d58c8075",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "v2ray3.freegradely.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/bqbows",
-        "headers": {
-          "Host": "v2ray3.freegradely.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 AFOSNE_Canada_vless_31",
-      "type": "vless",
-      "server": "23.227.39.53",
-      "server_port": 443,
-      "uuid": "7b671cd2-233d-406c-88da-1c687727dc52",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "fr.freeh1.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/kfhaws",
-        "headers": {
-          "Host": "fr.freeh1.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇴 AFOSNE_None_vmess_41",
+      "tag": "🇨🇦 AFOSNE_Canada_vmess_04",
       "type": "vmess",
-      "server": "198.41.221.100",
-      "server_port": 443,
-      "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+      "server": "149.56.7.123",
+      "server_port": 27490,
+      "uuid": "3722f77b-21b0-4892-b9f7-79c33b76e733",
       "security": "auto",
       "alter_id": 0,
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": ""
-      },
       "transport": {
         "type": "ws",
-        "path": "/gzogws"
+        "path": "/"
       }
     },
     {
-      "tag": "🇨🇦 AFOSNE_Canada_vmess_51",
+      "tag": "🇨🇿 AFOSNE_Czechia_vmess_05",
       "type": "vmess",
-      "server": "23.227.38.121",
-      "server_port": 443,
-      "uuid": "f5c180eb-fbce-49ac-9029-482eca9385c0",
+      "server": "94.131.97.123",
+      "server_port": 80,
+      "uuid": "ef7cfdf6-63e1-4307-bb61-40eb81acb5bd",
       "security": "auto",
       "alter_id": 0,
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": ""
-      },
       "transport": {
         "type": "ws",
-        "path": "/gzogws"
+        "path": "/vmess"
       }
+    },
+    {
+      "tag": "🇧🇪 AFOSNE_Belgium_vmess_06",
+      "type": "vmess",
+      "server": "be1-vmess.sshmax.xyz",
+      "server_port": 80,
+      "uuid": "38df59ec-30e2-45e9-86c7-5a58667e6994",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess"
+      }
+    },
+    {
+      "tag": "🇫🇴 AFOSNE_None_vmess_07",
+      "type": "vmess",
+      "server": "104.17.25.1",
+      "server_port": 80,
+      "uuid": "3d668cbe-5464-4a79-aab5-e301b4e0f169",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "tag": "🇵🇹 AFOSNE_Portugal_vmess_08",
+      "type": "vmess",
+      "server": "pt2-vmess.sshmax.xyz",
+      "server_port": 80,
+      "uuid": "099b5b7a-9d71-43cd-80e3-b8fbe1cc2695",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess"
+      }
+    },
+    {
+      "tag": "🇬🇷 AFOSNE_Greece_vmess_09",
+      "type": "vmess",
+      "server": "94.131.8.32",
+      "server_port": 80,
+      "uuid": "57e37a74-badc-4b71-87c7-5b9e20879b58",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess"
+      }
+    },
+    {
+      "tag": "🇫🇴 AFOSNE_None_vmess_010",
+      "type": "vmess",
+      "server": "104.17.25.1",
+      "server_port": 80,
+      "uuid": "aa8edc9c-978a-4f09-906f-a2668751e935",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "tag": "🇻🇳 AFOSNE_Vietnam_vmess_011",
+      "type": "vmess",
+      "server": "3SAO.5GTOCDOCAO.COM",
+      "server_port": 80,
+      "uuid": "eb9e8a52-0fec-4a10-8d16-af3b32874933",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/5gtocdocao.com"
+      }
+    },
+    {
+      "tag": "🇸🇰 AFOSNE_Slovakia_vmess_012",
+      "type": "vmess",
+      "server": "5.252.23.173",
+      "server_port": 80,
+      "uuid": "d70a32b5-5d4b-4ebe-adf6-8f34c73871d2",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess"
+      }
+    },
+    {
+      "tag": "🇹🇼 AFOSNE_Taiwan_vmess_013",
+      "type": "vmess",
+      "server": "36.232.161.39",
+      "server_port": 6122,
+      "uuid": "f4595480-44d4-4d55-a37e-a5b1e0ec64d6",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇹 AFOSNE_Portugal_vmess_014",
+      "type": "vmess",
+      "server": "94.131.10.135",
+      "server_port": 80,
+      "uuid": "099b5b7a-9d71-43cd-80e3-b8fbe1cc2695",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess"
+      }
+    },
+    {
+      "tag": "🇻🇳 AFOSNE_Vietnam_vmess_015",
+      "type": "vmess",
+      "server": "vn18.4gchill.com",
+      "server_port": 80,
+      "uuid": "67d5296e-a2ee-4a9f-89e6-365da540c55d",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/4gchill.com"
+      }
+    },
+    {
+      "tag": "🇫🇴 AFOSNE_None_vmess_016",
+      "type": "vmess",
+      "server": "cfcdn2.sanfencdn9.com",
+      "server_port": 2052,
+      "uuid": "657140e4-fb53-4404-80b7-fcbac652671f",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/video/34kKXbLM"
+      }
+    },
+    {
+      "tag": "🇹🇼 AFOSNE_Taiwan_vmess_017",
+      "type": "vmess",
+      "server": "nb22.ntbq.dynu.net",
+      "server_port": 12002,
+      "uuid": "99e39047-9298-404e-b632-1867f7ed1b37",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇼 AFOSNE_Taiwan_vmess_018",
+      "type": "vmess",
+      "server": "c12.twtc.dynu.net",
+      "server_port": 6122,
+      "uuid": "f4595480-44d4-4d55-a37e-a5b1e0ec64d6",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇴 AFOSNE_China_vmess_019",
+      "type": "vmess",
+      "server": "data-us-v1.shwjfkw.cn",
+      "server_port": 20401,
+      "uuid": "b1478e24-4916-3abe-8f17-15931012ecbe",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/debian"
+      }
+    },
+    {
+      "tag": "🇨🇿 AFOSNE_Czechia_vmess_020",
+      "type": "vmess",
+      "server": "cz1-vmess.sshmax.xyz",
+      "server_port": 80,
+      "uuid": "ef7cfdf6-63e1-4307-bb61-40eb81acb5bd",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/vmess"
+      }
+    },
+    {
+      "tag": "🇫🇴 AFOSNE_None_vmess_021",
+      "type": "vmess",
+      "server": "104.17.25.2",
+      "server_port": 80,
+      "uuid": "d6664518-c8e1-42cf-f2c1-d33dcc01a8a6",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "tag": "🇺🇸 AFOSNE_United States_vmess_11",
+      "type": "vmess",
+      "server": "108.181.2.154",
+      "server_port": 33445,
+      "uuid": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 AFOSNE_United States_vmess_21",
+      "type": "vmess",
+      "server": "108.181.2.154",
+      "server_port": 33445,
+      "uuid": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 AFOSNE_United States_vmess_31",
+      "type": "vmess",
+      "server": "108.181.2.154",
+      "server_port": 33445,
+      "uuid": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 AFOSNE_United States_vmess_41",
+      "type": "vmess",
+      "server": "108.181.2.154",
+      "server_port": 33445,
+      "uuid": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 AFOSNE_United States_vmess_51",
+      "type": "vmess",
+      "server": "108.181.2.154",
+      "server_port": 33445,
+      "uuid": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
+      "security": "auto",
+      "alter_id": 0,
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇼 AFOSNE_Taiwan_hysteria_61",

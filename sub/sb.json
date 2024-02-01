@@ -106,6 +106,7 @@
         "auto",
         "direct",
         "🇺🇸 AFOSNE_United States_vless_01",
+        "🇺🇸 AFOSNE_United States_vless_02",
         "🇺🇸 AFOSNE_United States_vmess_11",
         "🇺🇸 AFOSNE_United States_vmess_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
@@ -371,6 +372,7 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 AFOSNE_United States_vless_01",
+        "🇺🇸 AFOSNE_United States_vless_02",
         "🇺🇸 AFOSNE_United States_vmess_11",
         "🇺🇸 AFOSNE_United States_vmess_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
@@ -401,6 +403,7 @@
       "type": "urltest",
       "outbounds": [
         "🇺🇸 AFOSNE_United States_vless_01",
+        "🇺🇸 AFOSNE_United States_vless_02",
         "🇺🇸 AFOSNE_United States_vmess_11",
         "🇺🇸 AFOSNE_United States_vmess_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
@@ -437,6 +440,29 @@
     },
     {
       "tag": "🇺🇸 AFOSNE_United States_vless_01",
+      "type": "vless",
+      "server": "109.104.152.4",
+      "server_port": 16414,
+      "uuid": "80b5b4de-0619-4ac2-b1ff-f2bcc697b641",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "mensura.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 AFOSNE_United States_vless_02",
       "type": "vless",
       "server": "108.181.5.130",
       "server_port": 17346,

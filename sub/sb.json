@@ -105,9 +105,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 AFOSNE_United States_vless_01",
+        "🇫🇷 AFOSNE_France_vless_01",
         "🇺🇸 AFOSNE_United States_vless_02",
-        "🇺🇸 AFOSNE_United States_vmess_11",
+        "🇺🇸 AFOSNE_United States_vless_03",
+        "🇫🇷 AFOSNE_France_vless_11",
         "🇺🇸 AFOSNE_United States_vmess_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
         "🇺🇸 AFOSNE_United States_vmess_41",
@@ -371,9 +372,8 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 AFOSNE_United States_vless_01",
         "🇺🇸 AFOSNE_United States_vless_02",
-        "🇺🇸 AFOSNE_United States_vmess_11",
+        "🇺🇸 AFOSNE_United States_vless_03",
         "🇺🇸 AFOSNE_United States_vmess_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
         "🇺🇸 AFOSNE_United States_vmess_41",
@@ -391,6 +391,8 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
+        "🇫🇷 AFOSNE_France_vless_01",
+        "🇫🇷 AFOSNE_France_vless_11",
         "🇫🇷 AFOSNE_France_hysteria2_71",
         "🇫🇷 AFOSNE_France_hy_0",
         "🇫🇷 AFOSNE_France_hy2_0",
@@ -402,9 +404,10 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 AFOSNE_United States_vless_01",
+        "🇫🇷 AFOSNE_France_vless_01",
         "🇺🇸 AFOSNE_United States_vless_02",
-        "🇺🇸 AFOSNE_United States_vmess_11",
+        "🇺🇸 AFOSNE_United States_vless_03",
+        "🇫🇷 AFOSNE_France_vless_11",
         "🇺🇸 AFOSNE_United States_vmess_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
         "🇺🇸 AFOSNE_United States_vmess_41",
@@ -439,7 +442,30 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_vless_01",
+      "tag": "🇫🇷 AFOSNE_France_vless_01",
+      "type": "vless",
+      "server": "51.159.103.141",
+      "server_port": 12207,
+      "uuid": "63925418-7ae3-4da1-9e73-fb3fc5af6fdb",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "s0.awsstatic.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "A-DHKUq8W8KZKM1gr8xcKCoqKSct73NtdSjUZMhFcEM",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 AFOSNE_United States_vless_02",
       "type": "vless",
       "server": "109.104.152.4",
       "server_port": 16414,
@@ -462,7 +488,7 @@
       }
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_vless_02",
+      "tag": "🇺🇸 AFOSNE_United States_vless_03",
       "type": "vless",
       "server": "108.181.5.130",
       "server_port": 17346,
@@ -485,14 +511,27 @@
       }
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_vmess_11",
-      "type": "vmess",
-      "server": "108.181.2.154",
-      "server_port": 33445,
-      "uuid": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
-      "security": "auto",
-      "alter_id": 0,
-      "packet_encoding": "xudp"
+      "tag": "🇫🇷 AFOSNE_France_vless_11",
+      "type": "vless",
+      "server": "51.159.103.141",
+      "server_port": 12207,
+      "uuid": "63925418-7ae3-4da1-9e73-fb3fc5af6fdb",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "s0.awsstatic.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "A-DHKUq8W8KZKM1gr8xcKCoqKSct73NtdSjUZMhFcEM",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
     },
     {
       "tag": "🇺🇸 AFOSNE_United States_vmess_21",

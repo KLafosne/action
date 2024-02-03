@@ -107,7 +107,6 @@
         "direct",
         "🇫🇷 AFOSNE_France_vless_01",
         "🇺🇸 AFOSNE_United States_vless_02",
-        "🇺🇸 AFOSNE_United States_vless_03",
         "🇫🇷 AFOSNE_France_vless_11",
         "🇺🇸 AFOSNE_United States_vmess_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
@@ -124,7 +123,8 @@
         "🇫🇷 AFOSNE_France_hy2_0",
         "🇺🇸 AFOSNE_United States_hy2_1",
         "🇫🇷 AFOSNE_France_hy2_2",
-        "🇺🇸 AFOSNE_United States_hy2_3"
+        "🇺🇸 AFOSNE_United States_hy2_3",
+        "🇺🇸 AFOSNE_United States_reality_1"
       ]
     },
     {
@@ -373,7 +373,6 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 AFOSNE_United States_vless_02",
-        "🇺🇸 AFOSNE_United States_vless_03",
         "🇺🇸 AFOSNE_United States_vmess_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
         "🇺🇸 AFOSNE_United States_vmess_41",
@@ -384,6 +383,7 @@
         "🇺🇸 AFOSNE_United States_hy_3",
         "🇺🇸 AFOSNE_United States_hy2_1",
         "🇺🇸 AFOSNE_United States_hy2_3",
+        "🇺🇸 AFOSNE_United States_reality_1",
         "proxy"
       ]
     },
@@ -406,7 +406,6 @@
       "outbounds": [
         "🇫🇷 AFOSNE_France_vless_01",
         "🇺🇸 AFOSNE_United States_vless_02",
-        "🇺🇸 AFOSNE_United States_vless_03",
         "🇫🇷 AFOSNE_France_vless_11",
         "🇺🇸 AFOSNE_United States_vmess_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
@@ -423,7 +422,8 @@
         "🇫🇷 AFOSNE_France_hy2_0",
         "🇺🇸 AFOSNE_United States_hy2_1",
         "🇫🇷 AFOSNE_France_hy2_2",
-        "🇺🇸 AFOSNE_United States_hy2_3"
+        "🇺🇸 AFOSNE_United States_hy2_3",
+        "🇺🇸 AFOSNE_United States_reality_1"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -488,29 +488,6 @@
       }
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_vless_03",
-      "type": "vless",
-      "server": "108.181.5.130",
-      "server_port": 17346,
-      "uuid": "7fc88217-1b18-49b7-bc50-bfe379dc6bf7",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "d1.awsstatic.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "O5x9mSGdETFh_ql4m_2dPEUNBVwCly9XSi9pu1teLls",
-          "short_id": "6ba85179e30d4fc2"
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 AFOSNE_France_vless_11",
       "type": "vless",
       "server": "51.159.103.141",
@@ -556,9 +533,9 @@
     {
       "tag": "🇺🇸 AFOSNE_United States_vmess_41",
       "type": "vmess",
-      "server": "108.181.5.18",
-      "server_port": 18657,
-      "uuid": "636ba072-493e-4235-b7a8-822bd4e340d5",
+      "server": "108.181.2.154",
+      "server_port": 33445,
+      "uuid": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
       "security": "auto",
       "alter_id": 0,
       "packet_encoding": "xudp"
@@ -681,14 +658,14 @@
     {
       "tag": "🇺🇸 AFOSNE_United States_hy_2",
       "type": "hysteria",
-      "server": "108.181.22.239",
-      "server_port": 39967,
+      "server": "167.160.91.115",
+      "server_port": 41189,
       "up_mbps": 80,
       "down_mbps": 100,
-      "auth_str": "dongtaiwang.com",
+      "auth_str": "bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF",
       "tls": {
         "enabled": true,
-        "server_name": "bing.com",
+        "server_name": "www.amazon.cn",
         "alpn": [
           "h3"
         ],
@@ -778,6 +755,29 @@
         "alpn": [
           "h3"
         ]
+      }
+    },
+    {
+      "tag": "🇺🇸 AFOSNE_United States_reality_1",
+      "type": "vless",
+      "server": "109.104.152.4",
+      "server_port": 16414,
+      "uuid": "80b5b4de-0619-4ac2-b1ff-f2bcc697b641",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "mensura.cdn-apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE",
+          "short_id": "6ba85179e30d4fc2"
+        }
       }
     }
   ],

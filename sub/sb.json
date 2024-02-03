@@ -107,10 +107,11 @@
         "direct",
         "🇫🇷 AFOSNE_France_vless_01",
         "🇺🇸 AFOSNE_United States_vless_02",
+        "🇺🇸 AFOSNE_United States_vless_03",
         "🇫🇷 AFOSNE_France_vless_11",
-        "🇺🇸 AFOSNE_United States_vmess_21",
+        "🇺🇸 AFOSNE_United States_vless_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
-        "🇺🇸 AFOSNE_United States_vmess_41",
+        "🇺🇸 AFOSNE_United States_vless_41",
         "🇺🇸 AFOSNE_United States_vmess_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
         "🇫🇷 AFOSNE_France_hysteria2_71",
@@ -373,9 +374,10 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 AFOSNE_United States_vless_02",
-        "🇺🇸 AFOSNE_United States_vmess_21",
+        "🇺🇸 AFOSNE_United States_vless_03",
+        "🇺🇸 AFOSNE_United States_vless_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
-        "🇺🇸 AFOSNE_United States_vmess_41",
+        "🇺🇸 AFOSNE_United States_vless_41",
         "🇺🇸 AFOSNE_United States_vmess_51",
         "🇺🇸 AFOSNE_United States_hysteria2_81",
         "🇺🇸 AFOSNE_United States_hy_1",
@@ -406,10 +408,11 @@
       "outbounds": [
         "🇫🇷 AFOSNE_France_vless_01",
         "🇺🇸 AFOSNE_United States_vless_02",
+        "🇺🇸 AFOSNE_United States_vless_03",
         "🇫🇷 AFOSNE_France_vless_11",
-        "🇺🇸 AFOSNE_United States_vmess_21",
+        "🇺🇸 AFOSNE_United States_vless_21",
         "🇺🇸 AFOSNE_United States_vmess_31",
-        "🇺🇸 AFOSNE_United States_vmess_41",
+        "🇺🇸 AFOSNE_United States_vless_41",
         "🇺🇸 AFOSNE_United States_vmess_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
         "🇫🇷 AFOSNE_France_hysteria2_71",
@@ -488,6 +491,29 @@
       }
     },
     {
+      "tag": "🇺🇸 AFOSNE_United States_vless_03",
+      "type": "vless",
+      "server": "108.181.5.130",
+      "server_port": 20221,
+      "uuid": "8eb74635-0857-4673-9965-f6d928b420c9",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.lovelive-anime.jp",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "abc-YDOgV8WkuXRT9bJH-N_E6LaLJ9_7Sfc5OGajaSU",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 AFOSNE_France_vless_11",
       "type": "vless",
       "server": "51.159.103.141",
@@ -511,14 +537,27 @@
       }
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_vmess_21",
-      "type": "vmess",
-      "server": "108.181.2.154",
-      "server_port": 33445,
-      "uuid": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
-      "security": "auto",
-      "alter_id": 0,
-      "packet_encoding": "xudp"
+      "tag": "🇺🇸 AFOSNE_United States_vless_21",
+      "type": "vless",
+      "server": "108.181.2.156",
+      "server_port": 19695,
+      "uuid": "906d367a-a5d2-467c-b476-a29c79215003",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "lol.secure.dyn.riotcdn.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TETJrb4V6VlHpITM8jXZjFsh1bUav4iPuSVDMjUBVyo",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
     },
     {
       "tag": "🇺🇸 AFOSNE_United States_vmess_31",
@@ -531,14 +570,27 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_vmess_41",
-      "type": "vmess",
-      "server": "108.181.2.154",
-      "server_port": 33445,
-      "uuid": "7de8d7aa-ae4a-4d75-82f4-2e8b46fc0290",
-      "security": "auto",
-      "alter_id": 0,
-      "packet_encoding": "xudp"
+      "tag": "🇺🇸 AFOSNE_United States_vless_41",
+      "type": "vless",
+      "server": "108.181.2.156",
+      "server_port": 19695,
+      "uuid": "906d367a-a5d2-467c-b476-a29c79215003",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "lol.secure.dyn.riotcdn.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TETJrb4V6VlHpITM8jXZjFsh1bUav4iPuSVDMjUBVyo",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
     },
     {
       "tag": "🇺🇸 AFOSNE_United States_vmess_51",
@@ -658,14 +710,14 @@
     {
       "tag": "🇺🇸 AFOSNE_United States_hy_2",
       "type": "hysteria",
-      "server": "167.160.91.115",
-      "server_port": 41189,
+      "server": "108.181.22.239",
+      "server_port": 39967,
       "up_mbps": 80,
       "down_mbps": 100,
-      "auth_str": "bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF",
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "server_name": "www.amazon.cn",
+        "server_name": "bing.com",
         "alpn": [
           "h3"
         ],

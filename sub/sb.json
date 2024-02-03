@@ -109,8 +109,7 @@
         "🇺🇸 AFOSNE_United States_vless_02",
         "🇺🇸 AFOSNE_United States_vless_03",
         "🇫🇷 AFOSNE_France_vless_11",
-        "🇺🇸 AFOSNE_United States_vless_21",
-        "🇺🇸 AFOSNE_United States_vmess_31",
+        "🇺🇸 AFOSNE_United States_hysteria_31",
         "🇺🇸 AFOSNE_United States_vless_41",
         "🇺🇸 AFOSNE_United States_vmess_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
@@ -125,7 +124,8 @@
         "🇺🇸 AFOSNE_United States_hy2_1",
         "🇫🇷 AFOSNE_France_hy2_2",
         "🇺🇸 AFOSNE_United States_hy2_3",
-        "🇺🇸 AFOSNE_United States_reality_1"
+        "🇺🇸 AFOSNE_United States_reality_1",
+        "🇺🇸 AFOSNE_United States_reality_3"
       ]
     },
     {
@@ -375,8 +375,7 @@
       "outbounds": [
         "🇺🇸 AFOSNE_United States_vless_02",
         "🇺🇸 AFOSNE_United States_vless_03",
-        "🇺🇸 AFOSNE_United States_vless_21",
-        "🇺🇸 AFOSNE_United States_vmess_31",
+        "🇺🇸 AFOSNE_United States_hysteria_31",
         "🇺🇸 AFOSNE_United States_vless_41",
         "🇺🇸 AFOSNE_United States_vmess_51",
         "🇺🇸 AFOSNE_United States_hysteria2_81",
@@ -386,6 +385,7 @@
         "🇺🇸 AFOSNE_United States_hy2_1",
         "🇺🇸 AFOSNE_United States_hy2_3",
         "🇺🇸 AFOSNE_United States_reality_1",
+        "🇺🇸 AFOSNE_United States_reality_3",
         "proxy"
       ]
     },
@@ -410,8 +410,7 @@
         "🇺🇸 AFOSNE_United States_vless_02",
         "🇺🇸 AFOSNE_United States_vless_03",
         "🇫🇷 AFOSNE_France_vless_11",
-        "🇺🇸 AFOSNE_United States_vless_21",
-        "🇺🇸 AFOSNE_United States_vmess_31",
+        "🇺🇸 AFOSNE_United States_hysteria_31",
         "🇺🇸 AFOSNE_United States_vless_41",
         "🇺🇸 AFOSNE_United States_vmess_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
@@ -426,7 +425,8 @@
         "🇺🇸 AFOSNE_United States_hy2_1",
         "🇫🇷 AFOSNE_France_hy2_2",
         "🇺🇸 AFOSNE_United States_hy2_3",
-        "🇺🇸 AFOSNE_United States_reality_1"
+        "🇺🇸 AFOSNE_United States_reality_1",
+        "🇺🇸 AFOSNE_United States_reality_3"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -537,37 +537,21 @@
       }
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_vless_21",
-      "type": "vless",
-      "server": "108.181.2.156",
-      "server_port": 19695,
-      "uuid": "906d367a-a5d2-467c-b476-a29c79215003",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇺🇸 AFOSNE_United States_hysteria_31",
+      "type": "hysteria",
+      "server": "108.181.5.20",
+      "server_port": 22881,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "server_name": "lol.secure.dyn.riotcdn.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "TETJrb4V6VlHpITM8jXZjFsh1bUav4iPuSVDMjUBVyo",
-          "short_id": "6ba85179e30d4fc2"
-        }
+        "server_name": "",
+        "alpn": [
+          "h3"
+        ],
+        "insecure": true
       }
-    },
-    {
-      "tag": "🇺🇸 AFOSNE_United States_vmess_31",
-      "type": "vmess",
-      "server": "108.181.5.18",
-      "server_port": 18657,
-      "uuid": "636ba072-493e-4235-b7a8-822bd4e340d5",
-      "security": "auto",
-      "alter_id": 0,
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 AFOSNE_United States_vless_41",
@@ -828,6 +812,29 @@
         "reality": {
           "enabled": true,
           "public_key": "QR_5pj5Kj8I3sO6-6ywnM7B1fE2-btdv-IFEas2JHgE",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 AFOSNE_United States_reality_3",
+      "type": "vless",
+      "server": "108.181.22.213",
+      "server_port": 28945,
+      "uuid": "9cc39477-0d85-4419-84d4-fb7fc77668b3",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "m.media-amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0",
           "short_id": "6ba85179e30d4fc2"
         }
       }

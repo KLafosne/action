@@ -107,7 +107,7 @@
         "direct",
         "🇺🇸 AFOSNE_United States_tuic_01",
         "🇫🇷 AFOSNE_France_tuic_11",
-        "🇫🇷 AFOSNE_France_tuic_21",
+        "🇫🇴 AFOSNE_Netherlands_tuic_21",
         "🇫🇷 AFOSNE_France_tuic_31",
         "🇫🇷 AFOSNE_France_tuic_41",
         "🇫🇷 AFOSNE_France_tuic_51",
@@ -389,7 +389,7 @@
       "type": "selector",
       "outbounds": [
         "🇫🇷 AFOSNE_France_tuic_11",
-        "🇫🇷 AFOSNE_France_tuic_21",
+        "🇫🇴 AFOSNE_Netherlands_tuic_21",
         "🇫🇷 AFOSNE_France_tuic_31",
         "🇫🇷 AFOSNE_France_tuic_41",
         "🇫🇷 AFOSNE_France_tuic_51",
@@ -406,7 +406,7 @@
       "outbounds": [
         "🇺🇸 AFOSNE_United States_tuic_01",
         "🇫🇷 AFOSNE_France_tuic_11",
-        "🇫🇷 AFOSNE_France_tuic_21",
+        "🇫🇴 AFOSNE_Netherlands_tuic_21",
         "🇫🇷 AFOSNE_France_tuic_31",
         "🇫🇷 AFOSNE_France_tuic_41",
         "🇫🇷 AFOSNE_France_tuic_51",
@@ -480,11 +480,11 @@
       }
     },
     {
-      "tag": "🇫🇷 AFOSNE_France_tuic_21",
+      "tag": "🇫🇴 AFOSNE_Netherlands_tuic_21",
       "type": "tuic",
-      "server": "62.210.103.14",
-      "server_port": 44556,
-      "uuid": "0d9d053c-81c8-4f26-9b5c-dff313dfdd70",
+      "server": "109.104.153.17",
+      "server_port": 22334,
+      "uuid": "364d2d85-5bfd-463f-a3dd-a08012a2a6ce",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",

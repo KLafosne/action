@@ -105,8 +105,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 AFOSNE_United States_tuic_01",
-        "🇫🇷 AFOSNE_France_tuic_11",
+        "🇫🇷 AFOSNE_France_tuic_01",
+        "🇺🇸 AFOSNE_United States_tuic_11",
         "🇫🇴 AFOSNE_Netherlands_tuic_21",
         "🇫🇷 AFOSNE_France_tuic_31",
         "🇫🇷 AFOSNE_France_tuic_41",
@@ -372,7 +372,7 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
-        "🇺🇸 AFOSNE_United States_tuic_01",
+        "🇺🇸 AFOSNE_United States_tuic_11",
         "🇺🇸 AFOSNE_United States_hysteria2_81",
         "🇺🇸 AFOSNE_United States_hy_1",
         "🇺🇸 AFOSNE_United States_hy_2",
@@ -388,7 +388,7 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇫🇷 AFOSNE_France_tuic_11",
+        "🇫🇷 AFOSNE_France_tuic_01",
         "🇫🇴 AFOSNE_Netherlands_tuic_21",
         "🇫🇷 AFOSNE_France_tuic_31",
         "🇫🇷 AFOSNE_France_tuic_41",
@@ -404,8 +404,8 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇺🇸 AFOSNE_United States_tuic_01",
-        "🇫🇷 AFOSNE_France_tuic_11",
+        "🇫🇷 AFOSNE_France_tuic_01",
+        "🇺🇸 AFOSNE_United States_tuic_11",
         "🇫🇴 AFOSNE_Netherlands_tuic_21",
         "🇫🇷 AFOSNE_France_tuic_31",
         "🇫🇷 AFOSNE_France_tuic_41",
@@ -442,11 +442,11 @@
       "tag": "block"
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_tuic_01",
+      "tag": "🇫🇷 AFOSNE_France_tuic_01",
       "type": "tuic",
-      "server": "109.104.152.4",
-      "server_port": 443,
-      "uuid": "9ec44c8c-5dc0-4c92-a7ed-5422b0ac1913",
+      "server": "62.210.103.14",
+      "server_port": 44556,
+      "uuid": "0d9d053c-81c8-4f26-9b5c-dff313dfdd70",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -461,11 +461,11 @@
       }
     },
     {
-      "tag": "🇫🇷 AFOSNE_France_tuic_11",
+      "tag": "🇺🇸 AFOSNE_United States_tuic_11",
       "type": "tuic",
-      "server": "62.210.103.14",
-      "server_port": 44556,
-      "uuid": "0d9d053c-81c8-4f26-9b5c-dff313dfdd70",
+      "server": "109.104.152.4",
+      "server_port": 443,
+      "uuid": "9ec44c8c-5dc0-4c92-a7ed-5422b0ac1913",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",

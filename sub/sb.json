@@ -113,7 +113,7 @@
         "🇫🇷 AFOSNE_France_tuic_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
         "🇫🇷 AFOSNE_France_hysteria2_71",
-        "🇺🇸 AFOSNE_United States_hysteria2_81",
+        "🇹🇼 AFOSNE_Taiwan_hysteria_81",
         "🇹🇼 AFOSNE_Taiwan_hysteria_91",
         "🇫🇷 AFOSNE_France_hy_0",
         "🇺🇸 AFOSNE_United States_hy_1",
@@ -350,6 +350,7 @@
       "type": "selector",
       "outbounds": [
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
+        "🇹🇼 AFOSNE_Taiwan_hysteria_81",
         "🇹🇼 AFOSNE_Taiwan_hysteria_91",
         "proxy"
       ]
@@ -373,7 +374,6 @@
       "type": "selector",
       "outbounds": [
         "🇺🇸 AFOSNE_United States_tuic_11",
-        "🇺🇸 AFOSNE_United States_hysteria2_81",
         "🇺🇸 AFOSNE_United States_hy_1",
         "🇺🇸 AFOSNE_United States_hy_2",
         "🇺🇸 AFOSNE_United States_hy_3",
@@ -412,7 +412,7 @@
         "🇫🇷 AFOSNE_France_tuic_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
         "🇫🇷 AFOSNE_France_hysteria2_71",
-        "🇺🇸 AFOSNE_United States_hysteria2_81",
+        "🇹🇼 AFOSNE_Taiwan_hysteria_81",
         "🇹🇼 AFOSNE_Taiwan_hysteria_91",
         "🇫🇷 AFOSNE_France_hy_0",
         "🇺🇸 AFOSNE_United States_hy_1",
@@ -590,23 +590,20 @@
       }
     },
     {
-      "tag": "🇺🇸 AFOSNE_United States_hysteria2_81",
-      "type": "hysteria2",
-      "server": "45.150.165.84",
-      "server_port": 8881,
-      "password": "d017e316-82cb-441c-8eea-7b5e9de64a20",
-      "up_mbps": 2,
-      "down_mbps": 10,
+      "tag": "🇹🇼 AFOSNE_Taiwan_hysteria_81",
+      "type": "hysteria",
+      "server": "www2.dtku48.xyz",
+      "server_port": 22334,
+      "up_mbps": 11,
+      "down_mbps": 55,
+      "auth_str": "dongtaiwang.com",
       "tls": {
         "enabled": true,
-        "insecure": true,
+        "server_name": "",
         "alpn": [
           "h3"
-        ]
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "d017e316-82cb-441c-8eea-7b5e9de64a20"
+        ],
+        "insecure": true
       }
     },
     {

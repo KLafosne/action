@@ -39,7 +39,7 @@ proxies:
     path: /sbga?ed=2048
     headers:
       host: krse8.ip8.shop
-- name: AFOSNE_None_vmess_02
+- name: AFOSNE_United States_vmess_02
   type: vmess
   server: v2.gitvpn.eu.org
   port: 443
@@ -68,7 +68,7 @@ proxies:
     path: /?ed=2048
     headers:
       host: v3.gitvpn.eu.org
-- name: AFOSNE_Singapore_vmess_04
+- name: AFOSNE_Hong Kong_vmess_04
   type: vmess
   server: cf.gitvpn.eu.org
   port: 443
@@ -96,7 +96,7 @@ proxies:
     path: /ihax
     headers:
       host: ws.ccddos.link
-- name: AFOSNE_United States_vmess_06
+- name: AFOSNE_None_vmess_06
   type: vmess
   server: v6.gitvpn.eu.org
   port: 443
@@ -124,7 +124,7 @@ proxies:
   grpc-opts:
     grpc-service-name: ihaxv9
     grpc-mode: none
-- name: AFOSNE_None_vmess_08
+- name: AFOSNE_United States_vmess_08
   type: vmess
   server: v10.gitvpn.eu.org
   port: 443
@@ -173,13 +173,13 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - AFOSNE_South Korea_vmess_01
-  - AFOSNE_None_vmess_02
+  - AFOSNE_United States_vmess_02
   - AFOSNE_None_vmess_03
-  - AFOSNE_Singapore_vmess_04
+  - AFOSNE_Hong Kong_vmess_04
   - AFOSNE_None_vmess_05
-  - AFOSNE_United States_vmess_06
+  - AFOSNE_None_vmess_06
   - AFOSNE_Singapore_vmess_07
-  - AFOSNE_None_vmess_08
+  - AFOSNE_United States_vmess_08
   - AFOSNE_None_vmess_09
   - AFOSNE_None_vmess_010
 - name: 自动选择
@@ -189,13 +189,13 @@ proxy-groups:
   tolerance: 50
   proxies:
   - AFOSNE_South Korea_vmess_01
-  - AFOSNE_None_vmess_02
+  - AFOSNE_United States_vmess_02
   - AFOSNE_None_vmess_03
-  - AFOSNE_Singapore_vmess_04
+  - AFOSNE_Hong Kong_vmess_04
   - AFOSNE_None_vmess_05
-  - AFOSNE_United States_vmess_06
+  - AFOSNE_None_vmess_06
   - AFOSNE_Singapore_vmess_07
-  - AFOSNE_None_vmess_08
+  - AFOSNE_United States_vmess_08
   - AFOSNE_None_vmess_09
   - AFOSNE_None_vmess_010
 rules:

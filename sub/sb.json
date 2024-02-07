@@ -105,12 +105,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇷 AFOSNE_France_tuic_01",
+        "🇺🇸 AFOSNE_United States_tuic_01",
         "🇺🇸 AFOSNE_United States_tuic_11",
-        "🇫🇴 AFOSNE_Netherlands_tuic_21",
-        "🇫🇷 AFOSNE_France_tuic_31",
-        "🇫🇷 AFOSNE_France_tuic_41",
-        "🇫🇷 AFOSNE_France_tuic_51",
+        "🇺🇸 AFOSNE_United States_tuic_21",
+        "🇺🇸 AFOSNE_United States_tuic_31",
+        "🇺🇸 AFOSNE_United States_tuic_41",
+        "🇺🇸 AFOSNE_United States_tuic_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
         "🇫🇷 AFOSNE_France_hysteria2_71",
         "🇹🇼 AFOSNE_Taiwan_hysteria_81",
@@ -123,7 +123,9 @@
         "🇺🇸 AFOSNE_United States_hy2_1",
         "🇫🇷 AFOSNE_France_hy2_2",
         "🇺🇸 AFOSNE_United States_hy2_3",
+        "🇫🇷 AFOSNE_France_reality_0",
         "🇺🇸 AFOSNE_United States_reality_1",
+        "🇫🇷 AFOSNE_France_reality_2",
         "🇺🇸 AFOSNE_United States_reality_3"
       ]
     },
@@ -373,7 +375,12 @@
       "tag": "America",
       "type": "selector",
       "outbounds": [
+        "🇺🇸 AFOSNE_United States_tuic_01",
         "🇺🇸 AFOSNE_United States_tuic_11",
+        "🇺🇸 AFOSNE_United States_tuic_21",
+        "🇺🇸 AFOSNE_United States_tuic_31",
+        "🇺🇸 AFOSNE_United States_tuic_41",
+        "🇺🇸 AFOSNE_United States_tuic_51",
         "🇺🇸 AFOSNE_United States_hy_1",
         "🇺🇸 AFOSNE_United States_hy_2",
         "🇺🇸 AFOSNE_United States_hy_3",
@@ -388,15 +395,12 @@
       "tag": "Others",
       "type": "selector",
       "outbounds": [
-        "🇫🇷 AFOSNE_France_tuic_01",
-        "🇫🇴 AFOSNE_Netherlands_tuic_21",
-        "🇫🇷 AFOSNE_France_tuic_31",
-        "🇫🇷 AFOSNE_France_tuic_41",
-        "🇫🇷 AFOSNE_France_tuic_51",
         "🇫🇷 AFOSNE_France_hysteria2_71",
         "🇫🇷 AFOSNE_France_hy_0",
         "🇫🇷 AFOSNE_France_hy2_0",
         "🇫🇷 AFOSNE_France_hy2_2",
+        "🇫🇷 AFOSNE_France_reality_0",
+        "🇫🇷 AFOSNE_France_reality_2",
         "proxy"
       ]
     },
@@ -404,12 +408,12 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "🇫🇷 AFOSNE_France_tuic_01",
+        "🇺🇸 AFOSNE_United States_tuic_01",
         "🇺🇸 AFOSNE_United States_tuic_11",
-        "🇫🇴 AFOSNE_Netherlands_tuic_21",
-        "🇫🇷 AFOSNE_France_tuic_31",
-        "🇫🇷 AFOSNE_France_tuic_41",
-        "🇫🇷 AFOSNE_France_tuic_51",
+        "🇺🇸 AFOSNE_United States_tuic_21",
+        "🇺🇸 AFOSNE_United States_tuic_31",
+        "🇺🇸 AFOSNE_United States_tuic_41",
+        "🇺🇸 AFOSNE_United States_tuic_51",
         "🇹🇼 AFOSNE_Taiwan_hysteria_61",
         "🇫🇷 AFOSNE_France_hysteria2_71",
         "🇹🇼 AFOSNE_Taiwan_hysteria_81",
@@ -422,7 +426,9 @@
         "🇺🇸 AFOSNE_United States_hy2_1",
         "🇫🇷 AFOSNE_France_hy2_2",
         "🇺🇸 AFOSNE_United States_hy2_3",
+        "🇫🇷 AFOSNE_France_reality_0",
         "🇺🇸 AFOSNE_United States_reality_1",
+        "🇫🇷 AFOSNE_France_reality_2",
         "🇺🇸 AFOSNE_United States_reality_3"
       ],
       "url": "http://www.gstatic.com/generate_204",
@@ -442,11 +448,11 @@
       "tag": "block"
     },
     {
-      "tag": "🇫🇷 AFOSNE_France_tuic_01",
+      "tag": "🇺🇸 AFOSNE_United States_tuic_01",
       "type": "tuic",
-      "server": "62.210.103.14",
-      "server_port": 44556,
-      "uuid": "0d9d053c-81c8-4f26-9b5c-dff313dfdd70",
+      "server": "195.137.220.189",
+      "server_port": 33445,
+      "uuid": "983a85bd-8fae-45d2-a702-5d00a383763e",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -463,9 +469,9 @@
     {
       "tag": "🇺🇸 AFOSNE_United States_tuic_11",
       "type": "tuic",
-      "server": "109.104.152.4",
+      "server": "74.63.249.229",
       "server_port": 443,
-      "uuid": "9ec44c8c-5dc0-4c92-a7ed-5422b0ac1913",
+      "uuid": "9a6140f4-abd8-4ece-aa0e-4f14556de56b",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -480,11 +486,11 @@
       }
     },
     {
-      "tag": "🇫🇴 AFOSNE_Netherlands_tuic_21",
+      "tag": "🇺🇸 AFOSNE_United States_tuic_21",
       "type": "tuic",
-      "server": "109.104.153.17",
-      "server_port": 22334,
-      "uuid": "364d2d85-5bfd-463f-a3dd-a08012a2a6ce",
+      "server": "74.63.249.229",
+      "server_port": 443,
+      "uuid": "9a6140f4-abd8-4ece-aa0e-4f14556de56b",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -499,11 +505,11 @@
       }
     },
     {
-      "tag": "🇫🇷 AFOSNE_France_tuic_31",
+      "tag": "🇺🇸 AFOSNE_United States_tuic_31",
       "type": "tuic",
-      "server": "62.210.103.14",
-      "server_port": 44556,
-      "uuid": "0d9d053c-81c8-4f26-9b5c-dff313dfdd70",
+      "server": "74.63.249.229",
+      "server_port": 443,
+      "uuid": "9a6140f4-abd8-4ece-aa0e-4f14556de56b",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -518,11 +524,11 @@
       }
     },
     {
-      "tag": "🇫🇷 AFOSNE_France_tuic_41",
+      "tag": "🇺🇸 AFOSNE_United States_tuic_41",
       "type": "tuic",
-      "server": "62.210.103.14",
-      "server_port": 44556,
-      "uuid": "0d9d053c-81c8-4f26-9b5c-dff313dfdd70",
+      "server": "74.63.249.229",
+      "server_port": 443,
+      "uuid": "9a6140f4-abd8-4ece-aa0e-4f14556de56b",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -537,11 +543,11 @@
       }
     },
     {
-      "tag": "🇫🇷 AFOSNE_France_tuic_51",
+      "tag": "🇺🇸 AFOSNE_United States_tuic_51",
       "type": "tuic",
-      "server": "62.210.103.14",
-      "server_port": 44556,
-      "uuid": "0d9d053c-81c8-4f26-9b5c-dff313dfdd70",
+      "server": "74.63.249.229",
+      "server_port": 443,
+      "uuid": "9a6140f4-abd8-4ece-aa0e-4f14556de56b",
       "password": "dongtaiwang.com",
       "congestion_control": "bbr",
       "udp_relay_mode": "native",
@@ -694,8 +700,8 @@
     {
       "tag": "🇫🇷 AFOSNE_France_hy2_0",
       "type": "hysteria2",
-      "server": "62.210.101.0",
-      "server_port": 52465,
+      "server": "62.210.103.0",
+      "server_port": 22483,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -729,7 +735,7 @@
       "tag": "🇫🇷 AFOSNE_France_hy2_2",
       "type": "hysteria2",
       "server": "62.210.103.0",
-      "server_port": 52465,
+      "server_port": 22483,
       "password": "dongtaiwang.com",
       "up_mbps": 10,
       "down_mbps": 100,
@@ -760,6 +766,29 @@
       }
     },
     {
+      "tag": "🇫🇷 AFOSNE_France_reality_0",
+      "type": "vless",
+      "server": "62.210.101.0",
+      "server_port": 18700,
+      "uuid": "e659661d-8439-46e0-b1ab-d75ceaf73404",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "update.microsoft",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PBRc2v9SSXpG4jjQRYNa-kgs8w9V4U3MNLuncd2d0hw",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 AFOSNE_United States_reality_1",
       "type": "vless",
       "server": "108.181.22.213",
@@ -778,6 +807,29 @@
         "reality": {
           "enabled": true,
           "public_key": "yKXmLTmXAi-BHBg3JpCz-NWUmVcKlfm7iMmVoq7YQx0",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 AFOSNE_France_reality_2",
+      "type": "vless",
+      "server": "62.210.101.0",
+      "server_port": 18700,
+      "uuid": "e659661d-8439-46e0-b1ab-d75ceaf73404",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": true,
+        "server_name": "update.microsoft",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PBRc2v9SSXpG4jjQRYNa-kgs8w9V4U3MNLuncd2d0hw",
           "short_id": "6ba85179e30d4fc2"
         }
       }
